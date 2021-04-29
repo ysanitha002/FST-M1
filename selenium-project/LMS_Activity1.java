@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LMSActivity1 {
+public class LMS_Activity1 {
 	WebDriver driver;
 	
 	 @BeforeMethod
@@ -24,7 +24,7 @@ public class LMSActivity1 {
      System.out.println("Title of the website is : " + title);
          
          //Assertion for page title
-     Assert.assertEquals(title, "Alchemy LMS – An LMS Application");
+     Assert.assertEquals(title, "Alchemy LMS â€“ An LMS Application");
  }
 
 
